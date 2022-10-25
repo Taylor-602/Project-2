@@ -1,0 +1,52 @@
+body {
+}
+
+h3 {
+  text-align: center;
+  font-size: 50px;
+}
+
+#opener {
+  font-size: 75px;
+  text-align: center;
+  font-style: italic;
+}
+
+#openerinfo {
+  font-size: 40px;
+  font-style: normal;
+  text-align: right;
+}
+
+#logocat {
+  height: 275px;
+  width: 330px;
+}
+
+#homecat {
+  height: 200px;
+  weight: 200px;
+}
+
+#aboutcat {
+  height: 200px;
+  weight: 200px;
+}
+
+#menucat {
+  height: 150px;
+  weight: 150px;
+}
+
+.catgroup {
+  display: block;
+}
+
+.cats {
+  height: 500px;
+  weight: 540px;
+}
+
+.catnames {
+  font-size: 25px;
+}
