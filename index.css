@@ -1,22 +1,15 @@
 body {
-  background-color: #fff7ea;
-}
-
-#alignv {
-  display: flex;
-}
-
-#alignh {
-  display: flex;
-}
-
-a:-moz-any-link {
-  filter: none;
+  background-color: #fff7e4;
 }
 
 h3 {
   text-align: center;
   font-size: 50px;
+  margin-top: 5%;
+}
+
+a:-moz-any-link {
+  filter: none;
 }
 
 #opener {
@@ -31,14 +24,10 @@ h3 {
   text-align: right;
 }
 
-.navcats {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
 #logocat {
   height: 275px;
   width: 330px;
+  display: inline-block;
 }
 
 #homecat {
@@ -84,18 +73,20 @@ h3 {
 }
 
 #menucat {
-  height: 150px;
-  width: 150px;
+  height: 175px;
+  width: 175px;
   position: absolute;
+  margin-top: 45px;
 }
 #menucatalt {
-  height: 150px;
-  width: 150px;
-  max-height: 150px;
-  max-width: 150px;
+  height: 175px;
+  width: 175px;
+  max-height: 175px;
+  max-width: 175px;
   opacity: 0;
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
+  margin-top: 45px;
 }
 #menucat:hover ~ #menucatalt,
 #menucatalt:hover {
@@ -113,11 +104,25 @@ h3 {
 }
 
 .cats {
-  height: 500px;
-  width: 500px;
+  height: 450px;
+  width: 450px;
 }
 
 .catnames {
   font-size: 25px;
   text-align: center;
+}
+
+.reviewtext {
+  font-size: 30px;
+}
+
+.reviewname {
+  font-size: 25px;
+  font-style: italic;
+  text-align: right;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
 }
