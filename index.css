@@ -1,9 +1,26 @@
-body {
+.bg {
+  background-color: #fff7e4;
+  opacity: 1;
 }
 
 h3 {
   text-align: center;
   font-size: 50px;
+  margin-top: 5%;
+}
+
+h5 {
+  font-size: 60px;
+  color: #1c1c1c;
+}
+
+#blackspace {
+  width: 100%;
+  height: 50px;
+}
+
+a:-moz-any-link {
+  filter: none;
 }
 
 #opener {
@@ -21,32 +38,134 @@ h3 {
 #logocat {
   height: 275px;
   width: 330px;
+  display: inline-block;
 }
 
 #homecat {
   height: 200px;
-  weight: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+#homecatalt {
+  height: 200px;
+  width: 200px;
+  max-height: 200px;
+  max-width: 200px;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+#homecat:hover ~ #homecatalt,
+#homecatalt:hover {
+  opacity: 1;
 }
 
 #aboutcat {
   height: 200px;
-  weight: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+#aboutcatalt {
+  height: 200px;
+  width: 200px;
+  max-height: 200px;
+  max-width: 200px;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+#aboutcat:hover ~ #aboutcatalt,
+#aboutcatalt:hover {
+  opacity: 1;
 }
 
 #menucat {
-  height: 150px;
-  weight: 150px;
+  height: 175px;
+  width: 175px;
+  position: absolute;
+  margin-top: 45px;
+}
+#menucatalt {
+  height: 175px;
+  width: 175px;
+  max-height: 175px;
+  max-width: 175px;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  margin-top: 45px;
+}
+#menucat:hover ~ #menucatalt,
+#menucatalt:hover {
+  opacity: 1;
+}
+
+#catbuild {
+  height: 390px;
+  width: 600px;
 }
 
 .catgroup {
-  display: block;
-}
-
-.cats {
-  height: 500px;
-  weight: 540px;
+  display: inline-block;
+  align-content: center;
 }
 
 .catnames {
   font-size: 25px;
+  text-align: center;
+}
+
+.reviewtext {
+  font-size: 30px;
+}
+
+.reviewname {
+  font-size: 25px;
+  font-style: italic;
+  text-align: right;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #logocat {
+    height: 300px;
+    width: 355px;
+  }
+
+  #homecat,
+  #homecatalt {
+    height: 150px;
+    width: 150px;
+    margin-top: 250px;
+  }
+
+  #aboutcat,
+  #aboutcatalt {
+    height: 150px;
+    width: 150px;
+    margin-top: 250px;
+  }
+
+  #menucat,
+  #menucatalt {
+    height: 125px;
+    width: 125px;
+    margin-top: 275px;
+  }
+
+  #catbuild {
+    height: 145px;
+    width: 300px;
+  }
+  #openerinfo {
+    font-size: 30px;
+    text-align: center;
+  }
+  .col-3 {
+    display: table-row;
+  }
 }
