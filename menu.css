@@ -1,0 +1,206 @@
+body {
+  background-color: #fff7ea;
+}
+#capp {
+  width: 250px;
+  padding-left: 2%;
+}
+.names {
+  font-family: arial;
+  font-size: 100%;
+  font-weight: bold;
+  padding-left: 3%;
+}
+.describtions {
+  font-family: arial;
+  font-size: 95%;
+  font-style: italic;
+  padding-left: 3%;
+  vertical-align: text-top;
+}
+#nib {
+  width: 240px;
+  padding-left: 2%;
+}
+#hop {
+  width: 210px;
+  padding-left: 2%;
+}
+#sips {
+  width: 212px;
+  padding-left: 2%;
+}
+#bubbles {
+  width: 212px;
+  padding-left: 2%;
+}
+.namesright {
+  font-family: arial;
+  font-size: 100%;
+  font-weight: bold;
+  padding-right: 3%;
+  text-align: right;
+  margin-top: 38px;
+}
+.describtionsright {
+  font-family: arial;
+  font-size: 95%;
+  font-style: italic;
+  padding-right: 3%;
+  text-align: left;
+  vertical-align: text-top;
+  text-align: right;
+  margin-top: -26px;
+}
+#smokedsalmon {
+  line-height: 13px;
+}
+#ragdoll {
+  line-height: 13px;
+}
+#lysalad {
+  line-height: 13px;
+}
+#sphynx {
+  line-height: 13px;
+}
+#slyvester {
+  line-height: 13px;
+}
+#frenchkitty {
+  line-height: 13px;
+}
+#siamese {
+  line-height: 13px;
+}
+#birman {
+  line-height: 13px;
+}
+#catat {
+  line-height: 13px;
+}
+.drinks {
+  margin-top: -100px;
+  position: relative;
+  bottom: 20px;
+}
+#logocat {
+  height: 275px;
+  width: 330px;
+  display: inline-block;
+}
+
+#homecat {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+#homecatalt {
+  height: 200px;
+  width: 200px;
+  max-height: 200px;
+  max-width: 200px;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+#homecat:hover ~ #homecatalt,
+#homecatalt:hover {
+  opacity: 1;
+}
+
+#aboutcat {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+#aboutcatalt {
+  height: 200px;
+  width: 200px;
+  max-height: 200px;
+  max-width: 200px;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+#aboutcat:hover ~ #aboutcatalt,
+#aboutcatalt:hover {
+  opacity: 1;
+}
+
+#menucat {
+  height: 175px;
+  width: 175px;
+  position: absolute;
+  margin-top: 45px;
+}
+#menucatalt {
+  height: 175px;
+  width: 175px;
+  max-height: 175px;
+  max-width: 175px;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  margin-top: 45px;
+}
+#menucat:hover ~ #menucatalt,
+#menucatalt:hover {
+  opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+  #menucatalt {
+    height: 75px;
+    width: 75px;
+    max-height: 175px;
+    max-width: 175px;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    margin-bottom: 45px;
+  }
+  #menucat {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    margin-top: 45px;
+  }
+  #aboutcatalt {
+    height: 75px;
+    width: 75px;
+    max-height: 200px;
+    max-width: 200px;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+  #aboutcat {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+  }
+  #homecat {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+  }
+
+  #homecatalt {
+    height: 75px;
+    width: 75px;
+    max-height: 200px;
+    max-width: 200px;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+  #logocat {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+  }
+}
